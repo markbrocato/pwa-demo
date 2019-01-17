@@ -13,7 +13,7 @@
   },
   "layers": ["minify-js", "minify-css", "live-reload"],
   "host_map": [
-    "$.moovweb.cloud => www.nike.com"
+    "$.moovweb.cloud => m.nike.com"
   ],
   "static_paths": {
     "/manifest.json": "/manifest.json",

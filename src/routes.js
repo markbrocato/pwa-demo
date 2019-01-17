@@ -11,8 +11,13 @@ export default new Router()
     fromServer('./home/home-handler')
   )
   .get('/:country/:locale/pw/:collection/:code', 
-    proxyUpstream('./proxy/proxy-handler')
+    cacheHandler,
+    fromClient({ page: 'Subcategory' }),
+    fromServer('./subcategory/subcategory-handler')
   )
+  // .get('/:country/:locale/pw/:collection/:code', 
+  //   proxyUpstream('./proxy/inject-pwa-header')
+  // )
   .get('/c/:id',
     cacheHandler,
     fromClient({ page: 'Category' }),
@@ -67,5 +72,5 @@ export default new Router()
   })
   .fallback(
     // when no route matches, pull in content from the upstream site
-    proxyUpstream('./proxy/proxy-handler')
+    proxyUpstream('./proxy/inject-pwa-header')
   )

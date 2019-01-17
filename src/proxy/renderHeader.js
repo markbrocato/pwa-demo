@@ -20,7 +20,11 @@ export default function renderHeader(stats) {
 
   // remove the existing header
   $body.find('#header').remove()
-  $body.find('script').remove()
+  $head.find('script').remove()
+  $body.find('script[language=javaScript]').remove()
+  $body.find('script[data-script-type]').remove()
+  $body.find('script[src*="/static"]').remove()
+  $body.find('script[src*="nike"]').remove()
 
   // add the new header and supporting resources to the document
   const $header = $(tag('div', { class: 'mw-header' })).append(html)
