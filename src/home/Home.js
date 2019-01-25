@@ -21,7 +21,7 @@ export default class Home extends Component {
         </Row>
         <Row>
           <Typography variant="subtitle1">
-            New Homepage
+            New Homepage UI
           </Typography>
         </Row>
       </Container> 
