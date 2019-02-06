@@ -37,7 +37,7 @@ import SearchField from 'react-storefront/SearchField'
   },
 
   promo: {
-    maxHeight: '64px',
+    height: '64px',
     backgroundColor: '#81d4fa'
   },
 
