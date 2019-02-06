@@ -15,7 +15,7 @@ exports[`Home should render 1`] = `
                       <WithStyles(Typography) variant="h4">
                         <Typography variant="h4" theme={{...}} classes={{...}} align="inherit" color="default" gutterBottom={false} headlineMapping={{...}} inline={false} noWrap={false} paragraph={false}>
                           <h4 className="MuiTypography-root-4 MuiTypography-h4-19">
-                            React Storefront
+                            React Storefront Upgrade
                           </h4>
                         </Typography>
                       </WithStyles(Typography)>
