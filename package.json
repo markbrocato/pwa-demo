@@ -86,7 +86,7 @@
     "react-dom": "^16.5.2",
     "react-helmet": "^5.2.0",
     "react-jss": "^8.3.5",
-    "react-storefront": "^6.0.1",
+    "react-storefront": "^6.0.3",
     "react-storefront-extensions": "^6.0.1",
     "react-storefront-middleware": "^6.0.1",
     "react-storefront-moov-xdn": "^6.0.1",
