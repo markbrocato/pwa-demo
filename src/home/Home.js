@@ -15,7 +15,7 @@ export default class Home extends Component {
     return (
       <Container> 
         <Row>
-          <Typography variant="h4">React Storefront</Typography>
+          <Typography variant="h4">React Storefront Upgrade</Typography>
         </Row>
         <Row>
           <Typography variant="subtitle1">
